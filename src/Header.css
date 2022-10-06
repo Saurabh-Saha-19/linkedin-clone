@@ -1,6 +1,13 @@
 .header {
   display: flex;
   position: sticky;
+  top: 0;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999;
 }
 
 .header__left {
@@ -11,6 +18,10 @@
   object-fit: contain;
   height: 40px;
   margin-right: 10px;
+}
+
+.header__right {
+  display: flex;
 }
 
 .header__search {
