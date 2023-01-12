@@ -19,7 +19,7 @@ function Header() {
         <div className="header__search">
           {/* searchicon */}
           <SearchIcon />
-          <input type="text" />
+          <input type="text" placeholder="Search" />
         </div>
       </div>
 
@@ -29,7 +29,10 @@ function Header() {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
-        <HeaderOption avatar="https://media-exp1.licdn.com/dms/image/C5603AQFw-Hf2ydH9QQ/profile-displayphoto-shrink_800_800/0/1659755310583?e=1670457600&v=beta&t=-Oh_6TlQbDOJtljHn93j6poVIOgTEkT5reG3EG6OczA" title="Me" />
+        <HeaderOption
+          avatar="https://media-exp1.licdn.com/dms/image/C5603AQFw-Hf2ydH9QQ/profile-displayphoto-shrink_800_800/0/1659755310583?e=1670457600&v=beta&t=-Oh_6TlQbDOJtljHn93j6poVIOgTEkT5reG3EG6OczA"
+          title="Me"
+        />
       </div>
     </div>
   );
